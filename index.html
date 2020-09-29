@@ -1,60 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>online consultancy</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
+
     <div class="container">
-        <div class="nav">
-            <div class="logo">
-                <img src="" alt="logo">
-            </div>
-            <div class="items">
-                <ul>
-                    <li>
-                      
-                       <a href="">Home</a>
-                       <a href="">About us</a>
-                       <a href="">Contact us</a>
-                       <a href="">Subject</a>
-                       <a href="">quiz</a>
+        <nav class="navbar navbar-expand-md">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <img src="static/logo.png" alt="logo" class="logo">
+            </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse navbar-dark justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+
+                            <a class="nav-link" class="dropdown-toggle" data-toggle="dropdown" href="#">Subjects</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Subject 1</a>
+                                <a class="dropdown-item" href="#">Subject 2</a>
+                                <a class="dropdown-item" href="#">Subject 3</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quiz</a>
                     </li>
                 </ul>
             </div>
-               
-            </div>
-            <div class="crousel">
-              <h1>This is crousel part</h1>
+        </nav>
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
-            </div>
-            <div class="faculty">
-                <button id="bsc">BSC</button>
-                <button id="be">BE</button>
-                <button id="iom">IOM</button>
-                <button id="#"></button>
-            </div>
-            <div class="content">
-                <div class="content1">content1</div>
-                <div class="content1">content2</div>
-                <div class="content1">content3</div>
-                <div class="content1">content4</div>
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img" src="https://dummyimage.com/600x400/000/fff">
+                </div>
+                <div class="carousel-item">
+                    <img class="img" src="https://dummyimage.com/600x400/0e8433/fff">
+                </div>
+                <div class="carousel-item">
+                    <img class="img" src="https://dummyimage.com/600x400/06a89d/fff">
+                </div>
+                <div class="carousel-item">
+                    <img class="img" src="https://dummyimage.com/600x400/110df8/fff">
+                </div>
             </div>
 
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
 
+        </div>
+        <div class="faculty">
+            <div class="btn-group">
+                <button id="all" class="btn btn-primary">All</button>
+                <button id="bsc" class="btn btn-primary">BSC</button>
+                <button id="be" class="btn btn-warning">BE</button>
+                <button id="iom" class="btn btn-success">IOM</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div id="content1">
+
+        </div>
     </div>
 </body>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="javascript/index.js"></script>
+
 </html>
