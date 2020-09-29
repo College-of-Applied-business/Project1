@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+background-color:rgba(10,20,100,0.5);
+
+}
+.nav{
+    background-color: blue;
+    height: 30px;
+
+
+}
+.nav ul li{
+    padding: 6px;
+
+
+}
+.nav ul li a{
+    color: white;
+
+
+}
+.crousel{
+    background-color: aqua;
+    height: 300px;
+
+}
+.faculty{
+    background-color: green;
+    height: 100px;
+}
+.content{
+    background-color: azure;
+    height: auto;
+    display: flex;
+
+}
+.content1{
+    background-color: chocolate;
+    height: 40px;
+    margin: 2px;
+}
+.content2{
+    background-color: green;
+    height: 40px;
+    margin: 2px;
+    
+}
+.content3{
+    background-color: silver;
+    height: 40px;
+    margin: 2px;
+    
+}
+.content4{
+    background-color: white;
+    height: 40px;
+    margin: 2px;
+
+    
+}
