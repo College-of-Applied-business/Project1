@@ -1,18 +1,20 @@
 //contents to be uploaded in the website
 var contents = [{
 
-        name: "Sceince",
+        name: "Science",
         description: "some content"
     },
     {
-        name:"management",
+        name:"Management",
         description: "some content"
     },
     {
+        name:"Diploma",
+        description:"some content"
     },
     {
 
-        name: "Hotel management",
+        name: "Hotel Management",
         description: "some content"
     },
     {
@@ -26,9 +28,9 @@ var contents = [{
 
 //elements taken from the html
 var content1 = document.getElementById("content1");
-var bsc = document.getElementById("bsc");
-var be = document.getElementById("be");
-var iom = document.getElementById("iom");
+var Bachelor = document.getElementById("Bachelor");
+var Master = document.getElementById("Master");
+var plus_2= document.getElementById("plus-two");
 var all = document.getElementById("all");
 var count = 0;
 
@@ -69,7 +71,7 @@ all.onclick = function() {
     count = 0;
 };
 //displalys BSC realted contents when BSC button is clicked
-bsc.onclick = function() {
+Bachelor.onclick = function() {
     if (count == 0) {
         content1.innerHTML = "";
     }
@@ -93,7 +95,7 @@ bsc.onclick = function() {
 };
 
 //displalys BE realted contents when BE button is clicked
-be.onclick = function() {
+plus_2.onclick = function() {
     if (count == 0) {
         content1.innerHTML = "";
     }
@@ -114,7 +116,7 @@ be.onclick = function() {
 };
 
 //displalys IOM realted contents when IOM button is clicked
-iom.onclick = function() {
+Master.onclick = function() {
     if (count == 0) {
         content1.innerHTML = "";
     }
