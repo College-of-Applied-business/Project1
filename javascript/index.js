@@ -1,23 +1,26 @@
 //contents to be uploaded in the website
 var contents = [{
 
-        name: "BSC",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae pariatur sed quo, incidunt doloribus saepe dignissimos quidem facilis culpa officiis, necessitatibus dolorem, nulla quae libero!"
+        name: "Sceince",
+        description: "some content"
+    },
+    {
+        name:"management",
+        description: "some content"
+    },
+    {
     },
     {
 
-        name: "Be",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae pariatur sed quo, incidunt doloribus saepe dignissimos quidem facilis culpa officiis, necessitatibus dolorem, nulla quae libero!"
+        name: "Hotel management",
+        description: "some content"
     },
     {
 
-        name: "IOM",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae pariatur sed quo, incidunt doloribus saepe dignissimos quidem facilis culpa officiis, necessitatibus dolorem, nulla quae libero!"
-    },
-    {
-
-        name: "IOM",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae pariatur sed quo, incidunt doloribus saepe dignissimos quidem facilis culpa officiis, necessitatibus dolorem, nulla quae libero!"
+        name: "Law",
+        description: "Some content"
+             
+            
     }
 ];
 
