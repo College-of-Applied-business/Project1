@@ -5,12 +5,12 @@ var contents = [{
         description: "some content"
     },
     {
-        name:"Management",
+        name: "Management",
         description: "some content"
     },
     {
-        name:"Diploma",
-        description:"some content"
+        name: "Diploma",
+        description: "some content"
     },
     {
 
@@ -21,8 +21,8 @@ var contents = [{
 
         name: "Law",
         description: "Some content"
-             
-            
+
+
     }
 ];
 
@@ -30,7 +30,7 @@ var contents = [{
 var content1 = document.getElementById("content1");
 var Bachelor = document.getElementById("Bachelor");
 var Master = document.getElementById("Master");
-var plus_2= document.getElementById("plus-two");
+var plus_2 = document.getElementById("plus-two");
 var all = document.getElementById("all");
 var count = 0;
 
